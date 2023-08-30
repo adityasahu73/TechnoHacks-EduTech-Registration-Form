@@ -193,3 +193,24 @@ form .password i {
 .submit-btn input:hover {
   background: #179b81;
 }
+
+@media(max-width: 584px){
+  .container{
+   flex-direction: column;
+   overflow: hidden;
+  }
+  .heading {
+    width: 95%;
+    margin: 10px;
+  }
+  .box{
+    width: 95%;
+    margin: 10px;
+    margin-top: 0;
+  }
+  form .form-group {
+    width: 100%;
+  }
+}
+   @media(max-width: 459px){
+ }
